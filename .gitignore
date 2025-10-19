@@ -37,9 +37,20 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# genkit
 .genkit/*
+
+# environment variables
 .env*
+!.env.example
 
 # firebase
 firebase-debug.log
 firestore-debug.log
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
